@@ -1,0 +1,37 @@
+<resources>
+    <style name="Metric">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/card_bg</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="CardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DockItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

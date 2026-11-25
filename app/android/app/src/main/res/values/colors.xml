@@ -1,0 +1,13 @@
+<resources>
+    <color name="bg">#FF070B14</color>
+    <color name="card">#FF0F1624</color>
+    <color name="card2">#FF141D2F</color>
+    <color name="stroke">#FF1F2C44</color>
+    <color name="cyan">#FF00E5FF</color>
+    <color name="accent">#FFFF8A3D</color>
+    <color name="text">#FFE8EEF7</color>
+    <color name="muted">#FF7F8DA6</color>
+    <color name="pass">#FF19C37D</color>
+    <color name="rework">#FFFFB020</color>
+    <color name="reject">#FFFF4D5E</color>
+</resources>

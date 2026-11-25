@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000">
+
+    <ImageView
+        android:id="@+id/liveImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <com.ps5.textileqc.ScanOverlayView
+        android:id="@+id/liveScan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#B3070B14"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/liveDecision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.12"
+            android:text="LIVE"
+            android:textColor="@color/cyan"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/liveInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Starting camera…"
+            android:textColor="@color/text"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="monospace"
+            android:text="pinch = zoom · double-tap = torch · swipe down = close"
+            android:textColor="@color/muted"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="bottom"
+        android:background="#B3070B14"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnBack"
+            style="@style/DockItem"
+            android:text="✕\nCLOSE"
+            android:textSize="12sp" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4">
+
+            <ImageView
+                android:id="@+id/btnCapture"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shutter_bg"
+                android:contentDescription="Inspect"
+                android:padding="20dp"
+                android:src="@drawable/ic_camera" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/liveZoom"
+            style="@style/DockItem"
+            android:text="1.0×\nZOOM"
+            android:textSize="12sp" />
+    </LinearLayout>
+</FrameLayout>

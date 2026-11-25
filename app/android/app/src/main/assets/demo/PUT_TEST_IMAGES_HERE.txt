@@ -1,0 +1,1 @@
+Put a few fabric test images (.jpg) here for the SAMPLE button. Dataset images are not included because of their licences.
