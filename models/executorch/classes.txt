@@ -1,0 +1,6 @@
+broken_yarn_needle
+good
+hole_burst
+jute
+lycra_run
+stain_oil
